@@ -1,7 +1,5 @@
-import {
-  createGlobalStyle
-} from 'styled-components'
-export const GlobalStyle = createGlobalStyle `
+import { createGlobalStyle } from 'styled-components'
+export const GlobalStyle = createGlobalStyle`
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,7 +18,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: baseline;	  
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
