@@ -7,14 +7,13 @@ export const HeaderOutside = styled.div`
 `
 export const HeaderWrapper = styled.div`
   margin: 0 auto;
+  z-index:1;
   width: 1440px;
   position: relative;
   height: 58px;
 `
 
-export const Logo = styled.a.attrs({
-  href: './'
-})`
+export const Logo = styled.div`
   height: 58px;
   width: 100px;
   display: block;
@@ -35,6 +34,7 @@ export const NavItem = styled.div`
   line-height: 56px;
   padding: 0 15px;
   color: #333333;
+  cursor:pointer;
   &.left {
     float: left;
   }

@@ -83,7 +83,7 @@ export const RecommendWrapper = styled.div `
     width:280px;
 `;
 export const RecommendItem = styled.div `
-       cursor:pointer;
+    cursor:pointer;
     margin-bottom:8px;
     width:280px;
     height:50px;
